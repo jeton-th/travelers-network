@@ -1,6 +1,3 @@
-Rails:
-  Enabled: true
-
 # Commonly used screens these days easily fit more than 80 characters.
 Metrics/LineLength:
   Max: 120
