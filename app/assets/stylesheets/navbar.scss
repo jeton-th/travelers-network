@@ -1,7 +1,8 @@
 @import "vars";
 
 .nav-container {
-  background: $network-blue;
+  background: linear-gradient(to right,  rgba($color: $network-blue, $alpha: 1), rgba($color: $network-blue, $alpha: 0));
+  // background: rgba($color: $network-blue, $alpha: 0.5) ;
   color: white;
 
   a,

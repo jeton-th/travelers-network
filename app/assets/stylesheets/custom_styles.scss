@@ -1,5 +1,6 @@
 .gray-background {
-  background: $background-gray;
+  background: $background-gray asset-url('hero.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .centered {
@@ -21,7 +22,6 @@
 
 .gray-button:hover {
   background: $gray-hover;
-  //#dddfe2;
 }
 
 .blue-button {

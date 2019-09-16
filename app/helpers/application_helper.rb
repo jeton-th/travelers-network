@@ -3,7 +3,7 @@
 # ApplicationHelper module
 module ApplicationHelper
   def get_title(title = '')
-    title.empty? ? 'Social Network' : "#{title} | Social Network"
+    title.empty? ? 'Travelers Network' : "#{title} | Travelers Network"
   end
 
   def requests_count

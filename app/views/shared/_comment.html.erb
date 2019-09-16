@@ -1,6 +1,6 @@
 <%= form_for(@comment, remote: true) do |f| %>
   <div class="field">
-    <%= f.text_area :content, placeholder: 'Add comment here...', class: 'w-100 gray-background rounded mt-3 p-1' %>
+    <%= f.text_area :content, placeholder: 'Add comment here...', class: 'bg-light w-100 rounded mt-3 p-1' %>
   </div>
 
   <%= hidden_field_tag 'comment[post_id]', post.id %>
@@ -15,7 +15,7 @@
     <div class="gravatar mr-3">    
       <%= gravatar_for(c.user, options = {size: 40}) %>
     </div>
-    <div class="gray-background rounded p-2 w-100">
+    <div class="bg-light rounded p-2 w-100">
       <span class="bold"><%= link_to c.user.name, user_path(c.user) %></span>
       <span><%= c.content %></span>
     </div>

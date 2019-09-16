@@ -1,7 +1,7 @@
-# building-facebook
+# Travelers network
 
 
-> This site is a social network built with Ruby on Rails in the style of Facebook, where users can sign up, friend other users and share posts.
+> This site is a social network for travel enthusiast for sharing their experiences. It's built with Ruby on Rails in the style of Facebook. 
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ Finally, fire up a local server:
 $ rails server
 ```
 
-You can see it live [here](https://social-network-for-microverse.herokuapp.com/).
+You can see it live [here](https://travelers-network.herokuapp.com/).
 
 ## Maintainers
 
