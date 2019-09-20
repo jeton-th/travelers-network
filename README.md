@@ -1,4 +1,7 @@
 # Travelers' network
+
+![Travelers' network](travelers-network.png)
+
 This site is a social network for travel enthusiast for sharing their experiences. It's built with Ruby on Rails in the style of Facebook.  
 Check out the [live version](https://travelers-network.herokuapp.com/).
 
