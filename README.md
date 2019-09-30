@@ -26,6 +26,10 @@ Finally, fire up a local server:
 ```
 $ rails server
 ```
+
+## Future features
+Add image upload option for the posts.
+
 ## Maintainers
 
 [@gferrarocamus](https://github.com/gferrarocamus) [@jeton-th](https://github.com/jeton-th)
